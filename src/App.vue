@@ -4,25 +4,22 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'App'
+<style lang="less">
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
-</script>
 
-<style>
-  body,html{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-  }
-  #app{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-  }
-  *{
-    margin: 0;
-    padding: 0;
-  }
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
 </style>
